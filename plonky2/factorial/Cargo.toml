@@ -1,0 +1,9 @@
+[package]
+name = "factorial"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+plonky2 = {git = "https://github.com/0xPolygonZero/plonky2.git"}
+anyhow = { version = "1.0.40", default-features = false }
