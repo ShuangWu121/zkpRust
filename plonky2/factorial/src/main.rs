@@ -14,7 +14,7 @@ fn main() -> Result<()> {
     type F = <C as GenericConfig<D>>::F;
 
     let config = CircuitConfig::standard_recursion_config();
-    let mut builder = CircuitBuilder::<F, D>::new(config);
+    let mut builder: CircuitBuilder<plonky2::field::goldilocks_field::GoldilocksField, 2> = CircuitBuilder::<F, D>::new(config);
 
     // The arithmetic circuit.
     let initial = builder.add_virtual_target();
