@@ -5,5 +5,5 @@ edition = "2021"
 
 [dependencies]
 
-plonky2 = {git = "https://github.com/0xPolygonZero/plonky2.git"}
-anyhow = { version = "1.0.40", default-features = false }
+plonky2 = {git = "https://github.com/mir-protocol/plonky2"}
+anyhow = { version = "1.0.56"}
